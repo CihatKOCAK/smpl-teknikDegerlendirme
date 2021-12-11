@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .left {
+    flex: 4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5090d3;
+  }
+  .right {
+    flex: 4;
+    height: 100vh;
+    display: block;
+    overflow: auto;
+    background-color: aqua;
+    .listItem {
+      background-color: aqua;
+      display: inline-flex;
+      position: relative;
+      top: auto;
+      width: 90vh;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
